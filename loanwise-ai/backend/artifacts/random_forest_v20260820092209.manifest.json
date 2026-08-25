@@ -1,0 +1,14 @@
+{
+  "name": "random_forest_v20260820092209",
+  "algorithm": "random_forest",
+  "trained_at": "2026-08-20T09:22:09.572143+00:00",
+  "metrics": {
+    "roc_auc": 0.8708,
+    "f1": 0.4068,
+    "ece": 0.0072,
+    "calibrated": true
+  },
+  "artifact_path": "/home/claude/loanwise-ai/backend/app/ml/../../artifacts/random_forest_v20260820092209.joblib",
+  "content_hash": "7337ae64c60cd22c90f4ca912137e300cb682ab8acf89232197e334746a4f618",
+  "preprocessing_version": "1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "feature_psi": {
+    "income": 0.2801,
+    "loan_amount": 0.0,
+    "tenure_months": 0.0,
+    "credit_history_months": 0.0,
+    "existing_emi": 0.0,
+    "dti_ratio": 0.0,
+    "credit_utilization": 1.2038,
+    "num_delinquencies_24m": 0.0,
+    "employment_type": 0.0
+  },
+  "flagged": true,
+  "watch_features": {},
+  "breached_features": {
+    "income": 0.2801,
+    "credit_utilization": 1.2038
+  }
+}

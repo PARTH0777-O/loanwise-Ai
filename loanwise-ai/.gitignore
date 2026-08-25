@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Backend runtime
+backend/loanwise.db
+backend/*.db
+backend/app/__pycache__/
+
+# Env / secrets — never commit real values
+.env
+.env.local
+*.env
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Model artifacts are large binaries; regenerate via `python app/ml/train.py`
+# rather than committing them. Uncomment to exclude from version control:
+# backend/artifacts/*.joblib
+
+# OS / editor
+.DS_Store
+.vscode/
+*.log
